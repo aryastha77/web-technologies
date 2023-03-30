@@ -1,0 +1,44 @@
+*{
+    font-size: 50px;
+
+}
+
+
+
+
+
+h1{
+    background-color: aliceblue;
+    color: blue;
+    font-family: 'Delicious Handrawn', cursive;
+
+    
+}
+#p1{
+    background-color: bisque;
+    color:brown;
+    /*font-size: 50px*/
+    font-family: 'Courier New', Courier, monospace;
+}
+#p2{
+    background-color: rgb(116, 84, 46);
+    color:rgb(136, 196, 111);
+    font-size: 30px
+}
+.p3{
+    background-color: rgb(181, 36, 130);
+    color:rgb(208, 214, 206);
+   /*font-size: 50px*/
+}
+.p3:hover{
+    background-color:blue ;
+    color: azure;
+}
+
+img{
+    width: 500px;
+    height: 500px;
+}
+img[alt]{
+    color: brown; 
+}

@@ -1,0 +1,31 @@
+css
+Types of CSS
+-Inline
+-Internal
+-External
+Types of CSS Selection
+Universal (*)
+Id (#)
+Class(.)
+attribute
+Element/Type/Tag
+Pseudo
+
+Extension= .css
+Role= provites style to the webpage
+css= cascading styling sheet
+Syntax
+         tag {
+              css property;
+             }
+
+1) Example of inline css=
+<h1 style="css property"> Week 5 </h1> : any tag: where style=attribute and "="= assignment : backgroud-color, font-color are css property; )
+2) Example of internal CSS=
+<head>
+<style> doesnt read html syntax instead {
+                                         css property:value;
+                                        }
+</style>
+</head>        
+
