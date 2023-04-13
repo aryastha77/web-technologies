@@ -1,0 +1,92 @@
+h1{
+    text-transform: uppercase;
+    color: blueviolet;
+    background-color: beige;
+    font-size: 60px;
+    text-align: center;
+}
+.parent{
+    width:100%;
+
+}
+img{
+    width:200px;
+    height:auto;
+
+}
+.son{
+    width:50%;
+    float:left;
+}
+.daughter{
+    width:50%;
+    float: right;
+
+}
+/* mobile devices */
+@media(min-width:320px) and (max-width:480px){
+ .parent{
+        display: block;
+    }
+  h1{
+    color:red;
+    width:100%;
+    background-color: black;
+    text-align: center;
+   }
+  .daughter{
+    width:100%;
+ }
+  .son{
+    width: 100%;
+ }
+  .daughter img{
+    width:100%;
+    height:auto;
+ }
+}
+/* table device */
+@media(min-width:481px) and (max-width:768px){
+    .parent{
+        display: block;
+    }
+     h1{
+        color:rgb(221, 100, 195);
+        width:100%;
+        background-color: rgb(11, 11, 11);
+        text-align: center;
+       }
+     .daughter{
+        width:100%;
+     }
+     .son{
+        width: 100%;
+     }
+     .daughter img{
+        width:100%;
+        height:auto;
+     }
+
+}
+/* laptop devices */
+@media(min-width:769px) and (max-width:1024px){
+    .parent{
+        display: block;
+    }
+     h1{
+        color:rgb(42, 29, 120);
+        width:100%;
+        background-color:  v(187, 66, 66);
+        text-align: center;
+       }
+     .daughter{
+        width:100%;
+     }
+     .son{
+        width: 100%;
+     }
+     .daughter img{
+        width:100%;
+        height: auto;
+     }
+}

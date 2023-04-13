@@ -1,0 +1,58 @@
+html, body {
+    background-color: lightblue;
+    height: 100%;
+  }
+h1{
+    text-align: center;
+    color: rgb(1, 1, 1);
+    font-size: 60px;
+    text-transform: uppercase;
+}
+img{
+    width: 100%;
+    height: 50%;
+}
+.parent{
+    font-size: 30px;
+    width:100%;
+    height: 50%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.son{
+    font-size: large;
+    width: 50%;
+    float: left;
+    color: black;
+}
+.daughter{
+    width: 41%;
+    height:40%;
+    float : right;
+}
+.div1{
+    float: left;
+    height: 50px;
+}
+
+button{
+    border-radius: 200px;
+    background-color: rgb(46, 197, 109);
+    padding: 15px;
+    margin-top:  15%;
+    margin-left: 15%;
+    margin-block-start: auto;
+
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-content: flex-start;
+    margin-top: 15%;
+    margin-left: 20px;
+    float: left;
+    width: 100px;
+    height: 100px;
+    font-size: medium;
+}
+
