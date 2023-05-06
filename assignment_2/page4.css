@@ -1,0 +1,82 @@
+body{
+    background-color:rgb(109,151,115);
+}
+button{
+    border-radius: 200px;
+    background-color: rgb(255,186,0);
+}
+.daughter{
+    float:left;
+}
+.son{
+    padding-top: 5%;
+    color:white;
+    font-size:30px ;
+    float:right;
+    padding-right: 28%;
+}
+.para{
+    padding-top: 38%;
+    line-height: 20px ;
+}
+/* mobile devices */
+@media(min-width:320px) and (max-width:480px){
+    body{
+        background-color:rgb(92, 206, 109);
+    }
+    .daughter{
+        float:left;
+    }
+    .son{
+        padding-top: 5%;
+        color:rgb(189, 189, 94);
+        font-size:30px ;
+        float:right;
+        padding-right: 28%;
+    }
+    .para{
+        padding-top: 38%;
+        line-height: 20px ;
+    }
+}
+    /* table device */
+   @media(min-width:481px) and (max-width:768px){
+    body{
+        background-color:rgb(190, 60, 114);
+    }
+    .daughter{
+        float:left;
+    }
+    .son{
+        padding-top: 5%;
+        color:rgb(129, 209, 212);
+        font-size:30px ;
+        float:right;
+        padding-right: 28%;
+    }
+    .para{
+        padding-top: 38%;
+        line-height: 20px ;
+    }
+   }
+   /* laptop devices */
+   @media(min-width:769px) and (max-width:1024px){
+    body{
+        background-color:rgb(234, 234, 55);
+    }
+    .daughter{
+        float:left;
+    }
+    .son{
+        padding-top: 5%;
+        color:rgb(169, 91, 91);
+        font-size:30px ;
+        float:right;
+        padding-right: 28%;
+    }
+    .para{
+        padding-top: 38%;
+        line-height: 20px ;
+    }
+   }
+   

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java 1</title>
+</head>
+<script src="script.js"></script>
+<body>
+    <h2>What Can JavaScript Do?</h2>
+
+<p>JavaScript can change HTML attribute values.</p>
+<button onclick="document.getElementById('para').style.fontSize='60px'"> Click here </button>
+<p id="para">In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+<button onclick="document.getElementById('para').style.display='none'">Click here to hide!</button>
+<br>
+<button onclick="document.getElementById('para').style.display='block'"> Click to show </button>
+<br>
+<button onclick="document.getElementById('myImage').src='open_ddor.jpg'">Open the door</button>
+<img id="myImage" src="open_ddor.jpg" style="width:100px">
+<button onclick="document.getElementById('myImage').src='close_door.jpg'">Close the door</button>
+<p id="Himalaya"></p>
+<script>
+    document.getElementById("Himalaya").innerHTML="Mt. Everest lies at Nepal";
+</script>
+<h2>Demo JavaScript in Body</h2>
+<p id="func"> Well, it is true</p>
+<button type ="button" onclick=" myfunction ()"> Try it</button>
+<script>
+    function myfunction () {
+        document.getElementById("func").innerHTML='No, it is not';
+    }
+</script>
+
+
+</body>
+</html>
+</body>
+</html>

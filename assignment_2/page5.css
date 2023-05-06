@@ -1,0 +1,120 @@
+body{
+    background-color: rgb(12,59,46);
+}
+button{
+    border-radius: 200px;
+    background-color: rgb(255,186,0);
+}
+.parent{
+    width:100%;
+}
+.daughter{
+    width:50%;
+    height: 90%;
+    float:right;
+}
+.son{
+    font-size:150%;
+    float:left;
+    color:white;
+    padding-left: 50px;
+    padding-top: 30px;
+}
+.button{
+    border-radius: 200px;
+    padding:20px;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top:600px;
+    background-color: rgb(255,186,0);
+}
+
+/* mobile devices */
+@media(min-width:320px) and (max-width:480px){
+    body{
+        background-color: rgb(61, 202, 162);
+    }
+    .parent{
+        width:100%;
+    }
+    .daughter{
+        width:50%;
+        height: 90%;
+        float:center;
+    }
+    .son{
+        font-size:150%;
+        float:left;
+        color:rgb(171, 38, 38);
+        padding-left: 50px;
+        padding-top: 30px;
+    }
+    button{
+        border-radius: 200px;
+        padding:20px;
+        font-size: 20px;
+        margin-left: 20px;
+        margin-top:600px;
+        background-color: rgb(24, 41, 165);
+    }
+}
+    /* table device */
+   @media(min-width:481px) and (max-width:768px){
+    body{
+        background-color: rgb(12,59,46);
+    }
+    .parent{
+        width:100%;
+    }
+    .daughter{
+        width:50%;
+        height: 90%;
+        float:right;
+    }
+    .son{
+        font-size:150%;
+        float:left;
+        color:rgb(36, 178, 171);
+        padding-left: 50px;
+        padding-top: 30px;
+    }
+    button{
+        border-radius: 200px;
+        padding:20px;
+        font-size: 20px;
+        margin-left: 20px;
+        margin-top:600px;
+        background-color: rgb(184, 26, 139);
+    }
+   
+   }
+   /* laptop devices */
+   @media(min-width:769px) and (max-width:1024px){
+    body{
+        background-color: rgb(12,59,46);
+    }
+    .parent{
+        width:100%;
+    }
+    .daughter{
+        width:50%;
+        height: 90%;
+        float:right;
+    }
+    .son{
+        font-size:150%;
+        float:left;
+        color:rgb(46, 94, 165);
+        padding-left: 50px;
+        padding-top: 30px;
+    }
+    button{
+        border-radius: 200px;
+        padding:20px;
+        font-size: 20px;
+        margin-left: 20px;
+        margin-top:600px;
+        background-color: rgb(206, 27, 33);
+    }
+   }
+   

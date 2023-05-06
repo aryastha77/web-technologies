@@ -1,0 +1,12 @@
+1)  ss (px, % em, vh, vw )
+
+px= fixed (doesn't adjust)
+% = adjust itslef acc to the frame
+em= font size (1em=16px) igonre root element, accept parent element
+rem= root elements related but ignore parent element
+vh = for height                   (doesn't adjust)
+vw = only for css property        ( doen't adjust)
+
+2) background using css
+3) text shadow 3px (horizontal) 3px (vertical) 3px (text blur)
+colorhunt.co for color pallette
